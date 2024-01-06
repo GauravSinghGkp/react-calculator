@@ -10,7 +10,7 @@ const Buttons = ({ number, cancel, cal, symbol, changeSign }) => {
     { id: "seven", value: "7", action: () => number("7") },
     { id: "eight", value: "8", action: () => number("8") },
     { id: "nine", value: "9", action: () => number("9") },
-    { id: "multiply", value: "×", action: () => symbol("*") },
+    { id: "multiply", value: "×", action: () => symbol("×") },
     { id: "four", value: "4", action: () => number("4") },
     { id: "five", value: "5", action: () => number("5") },
     { id: "six", value: "6", action: () => number("6") },

@@ -37,7 +37,7 @@ function Calculator() {
       result = parseFloat(val1) + parseFloat(val2);
     } else if (operator === "-") {
       result = parseFloat(val1) - parseFloat(val2);
-    } else if (operator === "*") {
+    } else if (operator === "×") {
       result = parseFloat(val1) * parseFloat(val2);
     } else if (operator === "/") {
       if (val2 === "0") {
